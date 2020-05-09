@@ -34,12 +34,19 @@
 }
 
 button {
+    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+    border-radius: 4px;
+    border: 1px solid #942911;
+    color: #fff;
     font-size: 16px;
-    padding: 15px;
-    color: white;
-    background-color: tomato;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 1px #000000;
+    opacity: 1;
+    padding: 16px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+}
+
+button:hover {
+    opacity: 0.8;
 }
 
