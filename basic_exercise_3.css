@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 100px auto;
+    padding: 60px 130px 100px;
+    text-align: center;
+    width: 870px;
+    height: 500px;
+    background-color: #F2F2F2;
+}
+
+.icon {
+    margin: 0 auto 50px;
+    text-align: center;
+    width: 74px;
+    height: 74px;
+    border: 3px solid #70CBCE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #70CBCE;
+}
+
+.email {
+    width: 340px;
+    height: 50px;
+    margin: 0 auto 25px;
+    padding: 5px 10px;
+    border: #F2F2F2;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 185px;
+    height: 65px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #70CBCE;
+}
+
+h1 {
+    margin: 0 auto 40px;
+    font-size: 50px;
+}
+
+p {
+    margin: 0 auto 50px;
+    font-size: 25px;
+}
