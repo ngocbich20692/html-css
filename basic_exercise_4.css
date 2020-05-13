@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.main {
+    margin: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    padding-bottom: 30px;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 0px;
+    background-color: #01BACF;
+    transition: 1s all;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    width: 200px;
+}
